@@ -21,4 +21,4 @@ VM Args have to be added
             "projectName": "springboot-rest-demo-ws",
             "vmArgs": "-Dspring.profiles.active=dev -Dspring.config.location=<PATH_TO_PROJECT>springboot-rest-demo-config\\src\\main\\resources\\springboot-rest-demo.yml"
         }
-```
+```# springboot-rest-demoPrueba
