@@ -4,9 +4,15 @@ WORKDIR /app
 
 COPY . .
 
+COPY build.sh .
+
 COPY ./springboot-rest-demo-config/src/main/resources/springboot-rest-demo.yml .
 
-RUN mvn clean package
+# RUN mvn clean package
+
+RUN chmod +x build.sh
+
+RUN ./build.sh
 
 EXPOSE 8080
 
